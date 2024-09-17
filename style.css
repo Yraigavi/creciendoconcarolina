@@ -1,22 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
-}
-
-header, main, footer {
-    width: 80%;
-    margin: auto;
-    padding: 20px;
-    background: #fff;
+    background: #f0f8ff;
 }
 
 header {
     background: #333;
     color: #fff;
     padding: 10px 0;
+    text-align: center;
 }
 
 header nav ul {
@@ -34,6 +28,14 @@ header nav ul li a {
     text-decoration: none;
 }
 
+main {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
 article {
     border-bottom: 1px solid #ccc;
     padding-bottom: 20px;
@@ -45,6 +47,9 @@ footer {
     padding: 10px 0;
     background: #333;
     color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 footer p {
