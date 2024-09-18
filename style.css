@@ -1,57 +1,51 @@
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    background: #f0f8ff;
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    padding: 20px;
     text-align: center;
 }
 
 header nav ul {
     list-style: none;
-    padding: 0;
 }
 
 header nav ul li {
     display: inline;
-    margin-right: 10px;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
+    margin-right: 20px;
 }
 
 main {
     width: 80%;
     margin: 20px auto;
-    background: #fff;
+    background-color: #fff;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-article {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 20px;
+.blog-post {
     margin-bottom: 20px;
 }
 
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #333;
-    color: #fff;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+.blog-post h2 {
+    color: #333;
 }
 
-footer p {
-    margin: 0;
+.blog-post p {
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

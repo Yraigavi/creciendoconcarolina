@@ -1,3 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("Bienvenidos a 'CreciendoconCarolina'");
+    // Aquí puedes añadir código que se ejecutará cuando la página se cargue
+    console.log('Página cargada');
 });
+
